@@ -154,6 +154,7 @@ This project demonstrates practical knowledge of:
 ## 👨‍💻 Author
 
 **Suniyan Jana**
+**soumya ranjan sahoo**
 
 Computer Science Engineering
 
