@@ -153,8 +153,8 @@ This project demonstrates practical knowledge of:
 
 ## 👨‍💻 Author
 
-**Suniyan Jana**
-**soumya ranjan sahoo**
+**Suniyan Jana** <br>
+**Soumya Ranjan Sahoo**
 
 Computer Science Engineering
 
