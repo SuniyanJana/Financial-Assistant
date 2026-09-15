@@ -32,20 +32,13 @@ Plan your future.
 # 🧭 Table of Contents
 
 - [✨ About the Project](#-about-the-project)
-- [🎯 Project Vision](#-project-vision)
 - [✨ Features](#-features)
-- [🖥️ Dashboard](#️-dashboard)
 - [📊 One Dashboard. Multiple Decisions.](#-one-dashboard-multiple-decisions)
 - [⚡ How You Use It](#-how-you-use-it)
-- [🏗️ How It Works](#️-how-it-works)
-- [🛠️ Tech Stack](#️-tech-stack)
 - [📈 Financial Logic](#-financial-logic)
-- [🗺️ Roadmap](#️-roadmap)
-- [💡 Why I Built This](#-why-i-built-this)
-- [🎯 What This Project Demonstrates](#-what-this-project-demonstrates)
-- [🔐 Security](#-security)
-- [👨‍💻 Developer](#-developer)
-- [⭐ Support the Project](#-support-the-project)
+- [🚀 Getting Started](#-getting-started)
+- [📂 Project Structure](#-project-structure)
+- [👨‍💻 Developer](#developer)
 
 ---
 
@@ -68,34 +61,6 @@ The application helps users answer simple but important questions:
 > 🧠 What does my overall financial position look like?
 
 The project was built to explore how a modern full-stack application can combine **frontend interfaces, REST APIs, authentication, database design, financial calculations and data visualization** into one working product.
-
----
-
-# 🎯 Project Vision
-
-Financial management should not feel like reading a spreadsheet.
-
-The idea behind Financial Assistant is to turn raw financial records into a clearer picture.
-
-```text
-                    YOUR FINANCIAL DATA
-                            │
-             ┌──────────────┼──────────────┐
-             │              │              │
-             ▼              ▼              ▼
-         Expenses         Funds       Investments
-             │              │              │
-             └──────────────┼──────────────┘
-                            │
-                            ▼
-                       Goals & Plans
-                            │
-                            ▼
-                    Financial Overview
-                            │
-                            ▼
-                    🧠 Better Decisions
-```
 
 ---
 
@@ -198,21 +163,6 @@ Your financial information belongs to your account.
 
 ---
 
-# 🖥️ Dashboard
-
-<p align="center">
-  <img src="Frontend/src/assets/hero.png" width="900" alt="Financial Assistant Dashboard">
-</p>
-
-<p align="center">
-  <i>
-    A focused dashboard designed to keep important financial information visible
-    without overwhelming the user.
-  </i>
-</p>
-
----
-
 # 📊 One Dashboard. Multiple Decisions.
 
 Financial Assistant is designed around the decisions people actually make.
@@ -304,100 +254,6 @@ Returns / Withdrawal
 
 ---
 
-# 🏗️ How It Works
-
-Financial Assistant follows a straightforward full-stack architecture.
-
-```text
-┌─────────────────────────────────────────────────────┐
-│                       USER                          │
-│                                                     │
-│               React + Vite Frontend                │
-└──────────────────────────┬──────────────────────────┘
-                           │
-                           │ REST API
-                           │ JSON
-                           ▼
-┌─────────────────────────────────────────────────────┐
-│                  EXPRESS SERVER                     │
-│                                                     │
-│ Authentication → Middleware → Controllers → Routes  │
-└──────────────────────────┬──────────────────────────┘
-                           │
-                           │ Mongoose
-                           ▼
-┌─────────────────────────────────────────────────────┐
-│                   MONGODB ATLAS                     │
-│                                                     │
-│      Users • Expenses • Investments • Goals       │
-└─────────────────────────────────────────────────────┘
-```
-
-```
-
-Every major financial resource is associated with the authenticated user.
-
----
-
-# 🧩 Application Modules
-
-```text
-Financial-Assistant
-│
-├── 🔐 Authentication
-│   ├── Registration
-│   └── Login
-│
-├── 💳 Expenses
-│   ├── Create
-│   ├── Update
-│   ├── Delete
-│   └── Analytics
-│
-├── 💰 Fund Tracker
-│   ├── Income
-│   ├── Balance
-│   ├── Spending
-│   └── Emergency Fund
-│
-├── 📈 Investments
-│   ├── Create
-│   ├── Track
-│   ├── Update
-│   └── Withdraw
-│
-├── 🎯 Goals
-│   ├── Create
-│   ├── Track
-│   └── Update
-│
-└── 🧠 Financial Health
-    └── Financial Score
-```
-
----
-
-# 🛠️ Tech Stack
-
-| Layer | Technology |
-|---|---|
-| 🎨 Frontend | React |
-| ⚡ Build Tool | Vite |
-| 📊 Visualization | Recharts |
-| 🖥️ Backend | Node.js |
-| 🚀 API | Express.js |
-| 🍃 Database | MongoDB Atlas |
-| 🧬 ODM | Mongoose |
-| 🔐 Authentication | JSON Web Token |
-| 🔒 Password Security | bcrypt |
-| 🛡️ Security | Helmet |
-| 🌐 API Communication | REST |
-| 🔧 Development | Nodemon |
-
----
-
----
-
 # 📈 Financial Logic
 
 Financial Assistant connects different parts of a user's financial activity.
@@ -433,36 +289,169 @@ This keeps the Fund Tracker connected with investment activity.
 
 ---
 
+# 🚀 Getting Started
+
+Want to run Financial Assistant locally?
+
+Follow these steps.
+
 ---
 
-# 🗺️ Roadmap
+## 1️⃣ Clone the Repository
 
-The project is designed to evolve beyond basic financial tracking.
-
-```text
-                    FINANCIAL ASSISTANT
-                           │
-          ┌────────────────┼────────────────┐
-          │                │                │
-          ▼                ▼                ▼
-       TRACK            ANALYZE          PLAN
-          │                │                │
-          ▼                ▼                ▼
-      Expenses          Health            Goals
-      Funds             Trends            Savings
-      Investments       Patterns          Future
-          │                │                │
-          └────────────────┼────────────────┘
-                           │
-                           ▼
-                    🤖 INTELLIGENCE
-                           │
-                           ▼
-                 SMARTER FINANCIAL
-                    DECISIONS
+```bash
+git clone https://github.com/SuniyanJana/Financial-Assistant.git
 ```
 
-## 🔮 Planned Improvements
+Move into the project:
+
+```bash
+cd Financial-Assistant
+```
+
+---
+
+# 2️⃣ Start the Backend
+
+Move into the backend:
+
+```bash
+cd Backend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env` file:
+
+```text
+Backend/.env
+```
+
+You can use `.env.example` as the template.
+
+Example:
+
+```env
+PORT=5000
+NODE_ENV=development
+
+MONGO_URI=your_mongodb_connection_string
+
+JWT_SECRET=your_secret_key
+JWT_EXPIRES_IN=7d
+
+CLIENT_URL=http://localhost:5173
+```
+
+Start the backend:
+
+```bash
+npm run dev
+```
+
+Backend will run at:
+
+```text
+http://localhost:5000
+```
+
+---
+
+# 3️⃣ Start the Frontend
+
+Open a **new terminal**.
+
+From the project root:
+
+```bash
+cd Frontend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create:
+
+```text
+Frontend/.env
+```
+
+Add:
+
+```env
+VITE_API_URL=http://localhost:5000/api
+```
+
+Start the frontend:
+
+```bash
+npm run dev
+```
+
+Open the application:
+
+```text
+http://localhost:5173
+```
+
+---
+
+# 📂 Project Structure
+
+```text
+Financial-Assistant/
+│
+├── 📁 Backend/
+│   │
+│   ├── 📁 src/
+│   │   ├── 📁 config/
+│   │   ├── 📁 controllers/
+│   │   ├── 📁 middleware/
+│   │   ├── 📁 models/
+│   │   ├── 📁 routes/
+│   │   ├── 📁 utils/
+│   │   └── server.js
+│   │
+│   ├── .env.example
+│   ├── README.md
+│   ├── package.json
+│   └── package-lock.json
+│
+├── 📁 Frontend/
+│   │
+│   ├── 📁 public/
+│   │
+│   ├── 📁 src/
+│   │   ├── 📁 api/
+│   │   ├── 📁 assets/
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── index.css
+│   │   └── main.jsx
+│   │
+│   ├── .env.example
+│   ├── .gitignore
+│   ├── README.md
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   └── vite.config.js
+│
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 🔮 Future Improvements
 
 - 🤖 AI-powered financial assistance
 - 💡 Personalized saving recommendations
@@ -472,71 +461,7 @@ The project is designed to evolve beyond basic financial tracking.
 
 ---
 
-# 💡 Why I Built This
-
-Financial Assistant was built to go beyond a simple CRUD project.
-
-The project brings together multiple real-world development concepts:
-
-```text
-React
-   +
-REST APIs
-   +
-Authentication
-   +
-Database Design
-   +
-Financial Logic
-   +
-Data Visualization
-   +
-Security
-   +
-Deployment
-```
-
-The goal was to understand how these technologies work together inside an actual product rather than learning them as isolated concepts.
-
----
-
-# 🎯 What This Project Demonstrates
-
-This project demonstrates practical experience with:
-
-- 🚀 Building a full-stack application
-- 🔌 Designing REST APIs
-- 🔗 Connecting React with an Express backend
-- 🍃 Working with MongoDB and Mongoose
-- 🔐 Implementing JWT authentication
-- 🛡️ Protecting API routes
-- 👤 Managing user-specific data
-- 💰 Building financial calculations
-- 📊 Creating data visualizations
-- ⚙️ Handling environment variables
-- 🏗️ Structuring a production-style project
-- 🌐 Using Git and GitHub
-
----
-
-# 🔐 Security
-
-Security is an important part of the application.
-
-The project uses:
-
-- 🔐 JWT authentication
-- 🔒 Password hashing
-- 🛡️ Protected API routes
-- 👤 User-specific database queries
-- 🪖 Helmet security middleware
-- 🌐 CORS configuration
-- 🔑 Environment variables for secrets
-- ✅ Server-side validation
-
-Sensitive environment files are excluded from version control.
-
----
+<a id="developer"></a>
 
 # 👨‍💻 Developer
 
@@ -552,22 +477,6 @@ Sensitive environment files are excluded from version control.
 [![Financial Assistant](https://img.shields.io/badge/Project-Financial%20Assistant-00a86b?style=for-the-badge)](https://github.com/SuniyanJana/Financial-Assistant)
 
 </div>
-
----
-
-# ⭐ Support the Project
-
-If you find **Financial Assistant** interesting:
-
-⭐ Star the repository
-
-🍴 Fork the project
-
-💡 Suggest improvements
-
-🐛 Report issues
-
-🚀 Experiment with the code
 
 ---
 
@@ -593,6 +502,3 @@ If you find **Financial Assistant** interesting:
 
 ---
 
-<p align="center">
-  <sub>Built with curiosity, code and a lot of debugging. 🚀</sub>
-</p>
