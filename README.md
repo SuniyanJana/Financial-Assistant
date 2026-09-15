@@ -567,14 +567,9 @@ The project is designed to evolve beyond basic financial tracking.
 
 - 🤖 AI-powered financial assistance
 - 💡 Personalized saving recommendations
-- 📊 Advanced spending analytics
-- 💰 Smarter budget suggestions
 - 🔔 Financial alerts
 - 📈 More investment insights
-- 📅 Long-term financial planning
 - 🧠 Personalized financial recommendations
-- 🌐 Production deployment
-- 🔗 Custom domain
 
 ---
 
