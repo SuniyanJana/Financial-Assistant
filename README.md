@@ -1,504 +1,287 @@
 <div align="center">
 
-<img src="Frontend/src/assets/financial-logo.png" width="110" alt="Financial Assistant Logo">
+<img src="Frontend/src/assets/financial-logo.png" width="96" alt="Financial Assistant Logo">
 
-# 💰 Financial Assistant
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:203a43,100:2c5364&height=130&section=header&text=FINANCIAL%20ASSISTANT&fontSize=40&fontColor=7CFFB2&animation=fadeIn&desc=%E2%80%A2%20your%20money%2C%20itemized%20%E2%80%A2&descSize=16&descAlignY=72" width="100%" alt="header">
 
-### Your personal command center for smarter money management.
-
-Track your money.  
-Understand your spending.  
-Manage your funds.  
-Monitor investments.  
-Plan your future.
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=7CFFB2&center=true&vCenter=true&width=620&lines=%3E+tracking+expenses...;%3E+calculating+your+runway...;%3E+syncing+investments...;%3E+goals+loaded.+decisions+ready." alt="typing">
 
 <br>
 
-![React](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-![Vite](https://img.shields.io/badge/Build-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Node.js](https://img.shields.io/badge/Backend-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/API-Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-
-<br>
-
-[![GitHub](https://img.shields.io/badge/GitHub-SuniyanJana-181717?style=flat-square&logo=github)](https://github.com/SuniyanJana)
-[![Repository](https://img.shields.io/badge/Repository-Financial--Assistant-blue?style=flat-square)](https://github.com/SuniyanJana/Financial-Assistant)
+![React](https://img.shields.io/badge/React-0b0f14?style=flat-square&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-0b0f14?style=flat-square&logo=vite&logoColor=646CFF)
+![Node](https://img.shields.io/badge/Node.js-0b0f14?style=flat-square&logo=node.js&logoColor=339933)
+![Express](https://img.shields.io/badge/Express-0b0f14?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-0b0f14?style=flat-square&logo=mongodb&logoColor=47A248)
+![JWT](https://img.shields.io/badge/JWT-0b0f14?style=flat-square&logo=jsonwebtokens&logoColor=white)
 
 </div>
 
----
+<br>
 
-# 🧭 Table of Contents
+```text
+╔══════════════════════════════════════════════════════════╗
+║                  F I N A N C I A L                       ║
+║                  A S S I S T A N T                       ║
+║ ──────────────────────────────────────────────────────── ║
+║  RECEIPT #0001                         STATUS: ● ONLINE  ║
+║ ──────────────────────────────────────────────────────── ║
+║  1 x Expense Intelligence ........................ ✔     ║
+║  1 x Fund Tracker ................................ ✔     ║
+║  1 x Investment Center ........................... ✔     ║
+║  1 x Goal Tracker ................................ ✔     ║
+║  1 x Financial Health Score ...................... ✔     ║
+║  1 x JWT-secured personal vault .................. ✔     ║
+║ ──────────────────────────────────────────────────────── ║
+║  TOTAL CLARITY ............................... PRICELESS ║
+║ ──────────────────────────────────────────────────────── ║
+║   *** THANK YOU FOR TAKING CONTROL OF YOUR MONEY ***     ║
+╚══════════════════════════════════════════════════════════╝
+```
 
-- [✨ About the Project](#-about-the-project)
-- [✨ Features](#-features)
-- [📊 One Dashboard. Multiple Decisions.](#-one-dashboard-multiple-decisions)
-- [⚡ How You Use It](#-how-you-use-it)
-- [📈 Financial Logic](#-financial-logic)
-- [🚀 Getting Started](#-getting-started)
-- [📂 Project Structure](#-project-structure)
-- [👨‍💻 Developer](#developer)
+> **Most finance apps show you a number. This one shows you a _decision_.**
+> Expenses, income, investments and goals live in one connected ledger, so every change ripples through your whole financial picture.
 
----
+<br>
 
-# ✨ About the Project
+## 📖 Index
 
-**Financial Assistant** is a full-stack personal finance management application designed to bring everyday financial information into one place.
+| | | |
+|---|---|---|
+| [🧾 Ledger Entries](#-ledger-entries) | [🔄 The Money Loop](#-the-money-loop) | [🧮 Worked Example](#-worked-example) |
+| [🚀 Boot Sequence](#-boot-sequence) | [🗂️ Anatomy](#️-anatomy) | [🛣️ Roadmap](#️-roadmap) |
 
-Instead of keeping expenses, investments, income, goals and financial insights separated across different applications or spreadsheets, Financial Assistant connects them into a single dashboard.
+<br>
 
-The application helps users answer simple but important questions:
+## 🧾 Ledger Entries
 
-> 💳 Where is my money going?
+Each module is a line item in your financial life. Open any one to see what's inside.
 
-> 💰 How much money do I have available?
+<details>
+<summary><b>💳 &nbsp;ENTRY 01 — Expense Intelligence</b> &nbsp;·&nbsp; <i>where is it going?</i></summary>
+<br>
 
-> 📈 How are my investments performing?
+- Add, edit and delete expenses
+- Categorize every spend
+- Monthly spending analysis with visual breakdowns
+- Spot spending patterns
+- Full expense history
 
-> 🎯 What am I saving toward?
+</details>
 
-> 🧠 What does my overall financial position look like?
+<details>
+<summary><b>💰 &nbsp;ENTRY 02 — Fund Tracker</b> &nbsp;·&nbsp; <i>how long will it last?</i></summary>
+<br>
 
-The project was built to explore how a modern full-stack application can combine **frontend interfaces, REST APIs, authentication, database design, financial calculations and data visualization** into one working product.
+- Monthly income and current balance
+- This month vs. previous month spending
+- Daily spending average
+- **Days your balance can last** (your runway)
+- Emergency fund estimation
 
----
+</details>
 
-# ✨ Features
+<details>
+<summary><b>📈 &nbsp;ENTRY 03 — Investment Center</b> &nbsp;·&nbsp; <i>where is it growing?</i></summary>
+<br>
+
+- Add investments and track the invested amount
+- Track current value and expected return rate
+- Active investments and full history
+- Withdrawal tracking, wired into your available funds
+
+</details>
+
+<details>
+<summary><b>🎯 &nbsp;ENTRY 04 — Goal Tracker</b> &nbsp;·&nbsp; <i>what am I saving toward?</i></summary>
+<br>
+
+- Create goals with target amounts
+- Track progress over time
+- Organize priorities and future plans
+
+</details>
+
+<details>
+<summary><b>🧠 &nbsp;ENTRY 05 — Financial Health Score</b> &nbsp;·&nbsp; <i>how am I doing overall?</i></summary>
+<br>
+
+A simplified, at-a-glance view of your financial position, built from the data already in your account.
+
+</details>
+
+<details>
+<summary><b>🔐 &nbsp;ENTRY 06 — Personal Vault</b> &nbsp;·&nbsp; <i>is it private?</i></summary>
+<br>
+
+- JWT authentication
+- Protected API routes
+- User-specific records
+- Password hashing
+- Environment-based secrets
+
+</details>
+
+<br>
+
+## 🔄 The Money Loop
+
+Nothing here lives in a silo. Investing locks money away; withdrawing sets it free, and your Fund Tracker reacts instantly.
+
+```mermaid
+flowchart LR
+    A([💵 Income]) --> F{{💰 Available Funds}}
+    B([💳 Expenses]) -- reduces --> F
+    C([📈 Active Investments]) -- locks in --> F
+    C -. withdraw .-> F
+    F --> G([🎯 Goals])
+    F --> H([🧠 Health Score])
+    H --> I([✅ Better Decisions])
+    G --> I
+```
+
+<br>
+
+## 🧮 Worked Example
+
+*Illustrative numbers, to show how the pieces connect:*
+
+```text
+  Monthly income ................ 50,000
+  Spent this month .............. 18,000
+  Put into investments .......... 10,000   ← locked, not "available"
+  ─────────────────────────────────────────
+  Available funds ............... 22,000
+
+  Daily spending average ........    600
+  Runway ........................  ~36 days
+
+  ⟲ Withdraw 4,000 from an investment...
+  Available funds ............... 26,000   ← instantly freed
+  Runway ........................  ~43 days
+```
+
+<br>
+
+## 🚀 Boot Sequence
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-## 💳 Expense Intelligence
-
-Know where your money is going.
-
-- ➕ Add expenses
-- ✏️ Edit expenses
-- 🗑️ Delete expenses
-- 🏷️ Categorize spending
-- 📅 Monthly spending analysis
-- 📊 Visual expense breakdown
-- 🔎 Spending patterns
-- 📜 Expense history
-
-</td>
-
-<td width="50%">
-
-## 💰 Fund Tracker
-
-Know how much financial runway you have.
-
-- 💵 Monthly income
-- 💰 Current balance
-- 📊 Monthly spending
-- 📅 Previous-month spending
-- 📈 Daily spending average
-- ⏳ Days balance can last
-- 🛡️ Emergency fund estimation
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-## 📈 Investment Center
-
-Keep investments connected to your overall financial picture.
-
-- ➕ Add investments
-- 💵 Track invested amount
-- 📊 Track current value
-- 📈 Expected return rate
-- 🟢 Active investments
-- 📜 Investment history
-- 💸 Withdrawal tracking
-
-</td>
-
-<td width="50%">
-
-## 🎯 Goal Tracker
-
-Give your money a destination.
-
-- 🎯 Create financial goals
-- 💰 Set target amounts
-- 📊 Track progress
-- 📅 Monitor future plans
-- ⭐ Organize financial priorities
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-## 🧠 Financial Health
-
-Turn financial numbers into a clearer picture.
-
-The Health Score provides a simplified view of the user's financial position using available financial information.
-
-</td>
-
-<td width="50%">
-
-## 🔐 Personal & Secure
-
-Your financial information belongs to your account.
-
-- 🔑 JWT authentication
-- 🛡️ Protected API routes
-- 👤 User-specific records
-- 🔒 Password hashing
-- ⚙️ Environment-based secrets
-
-</td>
-</tr>
-</table>
-
----
-
-# 📊 One Dashboard. Multiple Decisions.
-
-Financial Assistant is designed around the decisions people actually make.
-
-```text
-                         FINANCIAL ASSISTANT
-                                │
-       ┌────────────────────────┼────────────────────────┐
-       │                        │                        │
-       ▼                        ▼                        ▼
-   💳 SPENDING              💰 FUNDS                 📈 INVESTING
-       │                        │                        │
-       ▼                        ▼                        ▼
-  Where is it going?      How much remains?       Where is it growing?
-       │                        │                        │
-       └────────────────────────┼────────────────────────┘
-                                │
-                                ▼
-                         🎯 FUTURE GOALS
-                                │
-                                ▼
-                       🧠 BETTER DECISIONS
-```
-
----
-
-# ⚡ How You Use It
-
-## 01 — Track
-
-Record your everyday financial activity.
-
-```text
-Expenses
-    ↓
-Categories
-    ↓
-Monthly totals
-    ↓
-Spending patterns
-```
-
----
-
-## 02 — Understand
-
-Transform stored financial data into useful information.
-
-```text
-Income
-Expenses
-Investments
-Goals
-   ↓
-Financial Overview
-```
-
----
-
-## 03 — Plan
-
-Set targets instead of simply looking at past spending.
-
-```text
-Goal
- ↓
-Target
- ↓
-Progress
- ↓
-Future Planning
-```
-
----
-
-## 04 — Grow
-
-Keep investments connected to your overall financial picture.
-
-```text
-Investment
-     ↓
-Invested Amount
-     ↓
-Current Value
-     ↓
-Returns / Withdrawal
-```
-
----
-
-# 📈 Financial Logic
-
-Financial Assistant connects different parts of a user's financial activity.
-
-For example:
-
-```text
-Monthly Income
-      │
-      ├───────────────┐
-      │               │
-      ▼               ▼
-   Expenses       Investments
-      │               │
-      │               ▼
-      │        Active Investment
-      │            Amount
-      │               │
-      └───────┬───────┘
-              │
-              ▼
-        Available Funds
-              │
-              ▼
-       Financial Overview
-```
-
-When an investment is made, its invested amount is considered when calculating available funds.
-
-When an investment is withdrawn, the withdrawn amount becomes available again.
-
-This keeps the Fund Tracker connected with investment activity.
-
----
-
-# 🚀 Getting Started
-
-Want to run Financial Assistant locally?
-
-Follow these steps.
-
----
-
-## 1️⃣ Clone the Repository
+### ⚙️ `01` Backend
 
 ```bash
 git clone https://github.com/SuniyanJana/Financial-Assistant.git
-```
-
-Move into the project:
-
-```bash
-cd Financial-Assistant
-```
-
----
-
-# 2️⃣ Start the Backend
-
-Move into the backend:
-
-```bash
-cd Backend
-```
-
-Install dependencies:
-
-```bash
+cd Financial-Assistant/Backend
 npm install
 ```
 
-Create a `.env` file:
-
-```text
-Backend/.env
-```
-
-You can use `.env.example` as the template.
-
-Example:
+Create `Backend/.env` (use `.env.example` as a template):
 
 ```env
 PORT=5000
 NODE_ENV=development
-
 MONGO_URI=your_mongodb_connection_string
-
 JWT_SECRET=your_secret_key
 JWT_EXPIRES_IN=7d
-
 CLIENT_URL=http://localhost:5173
 ```
-
-Start the backend:
 
 ```bash
 npm run dev
 ```
 
-Backend will run at:
+🟢 Runs at `http://localhost:5000`
 
-```text
-http://localhost:5000
-```
+</td>
+<td width="50%" valign="top">
 
----
+### 🎨 `02` Frontend
 
-# 3️⃣ Start the Frontend
-
-Open a **new terminal**.
-
-From the project root:
+In a **new terminal**:
 
 ```bash
 cd Frontend
-```
-
-Install dependencies:
-
-```bash
 npm install
 ```
 
-Create:
-
-```text
-Frontend/.env
-```
-
-Add:
+Create `Frontend/.env`:
 
 ```env
 VITE_API_URL=http://localhost:5000/api
 ```
 
-Start the frontend:
-
 ```bash
 npm run dev
 ```
 
-Open the application:
+🟢 Open `http://localhost:5173`
 
-```text
-http://localhost:5173
-```
+</td>
+</tr>
+</table>
 
----
+<br>
 
-# 📂 Project Structure
+## 🗂️ Anatomy
 
 ```text
 Financial-Assistant/
+├── Backend/
+│   ├── src/
+│   │   ├── config/        ⚙️  database & app config
+│   │   ├── controllers/   🧠  business logic
+│   │   ├── middleware/    🛡️  auth guards
+│   │   ├── models/        🗄️  MongoDB schemas
+│   │   ├── routes/        🛣️  REST endpoints
+│   │   ├── utils/         🔧  helpers
+│   │   └── server.js      🚪  entry point
+│   └── .env.example
 │
-├── 📁 Backend/
-│   │
-│   ├── 📁 src/
-│   │   ├── 📁 config/
-│   │   ├── 📁 controllers/
-│   │   ├── 📁 middleware/
-│   │   ├── 📁 models/
-│   │   ├── 📁 routes/
-│   │   ├── 📁 utils/
-│   │   └── server.js
-│   │
-│   ├── .env.example
-│   ├── README.md
-│   ├── package.json
-│   └── package-lock.json
+├── Frontend/
+│   ├── src/
+│   │   ├── api/           🔌  API layer
+│   │   ├── assets/        🖼️  images & logo
+│   │   ├── App.jsx        🧩  root component
+│   │   └── main.jsx       🚪  entry point
+│   ├── vite.config.js
+│   └── .env.example
 │
-├── 📁 Frontend/
-│   │
-│   ├── 📁 public/
-│   │
-│   ├── 📁 src/
-│   │   ├── 📁 api/
-│   │   ├── 📁 assets/
-│   │   ├── App.jsx
-│   │   ├── App.css
-│   │   ├── index.css
-│   │   └── main.jsx
-│   │
-│   ├── .env.example
-│   ├── .gitignore
-│   ├── README.md
-│   ├── eslint.config.js
-│   ├── index.html
-│   ├── package.json
-│   ├── package-lock.json
-│   └── vite.config.js
-│
-├── .gitignore
-└── README.md
+└── README.md              📄  you are here
 ```
 
+<br>
+
+## 🛣️ Roadmap
+
+- [x] Expenses, funds, investments, goals
+- [x] JWT auth and protected routes
+- [x] Investment ↔ fund-tracker linkage
+- [ ] 🤖 AI-powered financial assistance
+- [ ] 💡 Personalized saving recommendations
+- [ ] 🔔 Financial alerts
+- [ ] 📊 Deeper investment insights
+
+<br>
+
 ---
-
-## 🔮 Future Improvements
-
-- 🤖 AI-powered financial assistance
-- 💡 Personalized saving recommendations
-- 🔔 Financial alerts
-- 📈 More investment insights
-- 🧠 Personalized financial recommendations
-
----
-
-<a id="developer"></a>
-
-# 👨‍💻 Developer
 
 <div align="center">
 
-### Suniyan Jana
+```text
+┌──────────────────────────────────────────┐
+│  BUILT BY                                │
+│  Suniyan Jana                            │
+│  B.Tech CSE · SOA University             │
+└──────────────────────────────────────────┘
+```
 
-**B.Tech — Computer Science & Engineering**  
-**SOA University**
+[![GitHub](https://img.shields.io/badge/GitHub-@SuniyanJana-0b0f14?style=for-the-badge&logo=github&logoColor=7CFFB2)](https://github.com/SuniyanJana)
+[![Repo](https://img.shields.io/badge/Repo-Financial--Assistant-0b0f14?style=for-the-badge&logo=git&logoColor=7CFFB2)](https://github.com/SuniyanJana/Financial-Assistant)
 
-[![GitHub](https://img.shields.io/badge/GitHub-@SuniyanJana-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SuniyanJana)
+**If this saved you a spreadsheet, drop a ⭐**
 
-[![Financial Assistant](https://img.shields.io/badge/Project-Financial%20Assistant-00a86b?style=for-the-badge)](https://github.com/SuniyanJana/Financial-Assistant)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=90&section=footer" width="100%" alt="footer">
 
 </div>
-
----
-
-<p align="center">
-
-## 💸 Manage Your Money.
-
-## 📊 Understand Your Numbers.
-
-## 🎯 Plan Your Future.
-
-<br>
-
-### Financial Assistant
-
-**Built with React • Node.js • Express • MongoDB**
-
-<br>
-
-⭐ **If you like the project, consider giving it a star.**
-
-</p>
-
----
-
