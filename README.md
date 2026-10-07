@@ -258,26 +258,78 @@ Financial-Assistant/
 - [x] Expenses, funds, investments, goals
 - [x] JWT auth and protected routes
 - [x] Investment ↔ fund-tracker linkage
+- [ ] 🤖 AI-powered financial assistance
+- [ ] 💡 Personalized saving recommendations
+- [ ] 🔔 Financial alerts
+- [ ] 📊 Deeper investment insights
 
 <br>
 
 ---
 
+## 👨‍💻 The Developer
+
 <div align="center">
 
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2600&pause=1000&color=7CFFB2&center=true&vCenter=true&width=520&lines=%24+whoami;Suniyan+Jana;B.Tech+CSE+%C2%B7+SOA+University;full-stack+builder+%C2%B7+React+%2B+Node+%2B+Mongo" alt="whoami">
+
+<br><br>
+
+<a href="https://github.com/SuniyanJana"><img src="https://img.shields.io/github/followers/SuniyanJana?label=Follow&style=for-the-badge&logo=github&logoColor=7CFFB2&labelColor=0b0f14&color=203a43" alt="Follow"></a>
+<a href="https://github.com/SuniyanJana/Financial-Assistant/stargazers"><img src="https://img.shields.io/github/stars/SuniyanJana/Financial-Assistant?style=for-the-badge&logo=github&logoColor=7CFFB2&labelColor=0b0f14&color=203a43" alt="Stars"></a>
+<a href="https://github.com/SuniyanJana/Financial-Assistant/fork"><img src="https://img.shields.io/github/forks/SuniyanJana/Financial-Assistant?style=for-the-badge&logo=github&logoColor=7CFFB2&labelColor=0b0f14&color=203a43" alt="Forks"></a>
+
+</div>
+
+<br>
+
+<details>
+<summary><b>🪪 &nbsp;Open developer card</b></summary>
+<br>
+
 ```text
-┌──────────────────────────────────────────┐
-│  BUILT BY                                │
-│  Suniyan Jana                            │
-│  B.Tech CSE · SOA University             │
-└──────────────────────────────────────────┘
+┌──────────────────────────────────────────────┐
+│  NAME      Suniyan Jana                      │
+│  DEGREE    B.Tech, Computer Science & Eng.   │
+│  CAMPUS    SOA University                    │
+│  STACK     React · Node · Express · MongoDB  │
+│  BUILT     Financial Assistant               │
+└──────────────────────────────────────────────┘
 ```
 
-[![GitHub](https://img.shields.io/badge/GitHub-@SuniyanJana-0b0f14?style=for-the-badge&logo=github&logoColor=7CFFB2)](https://github.com/SuniyanJana)
-[![Repo](https://img.shields.io/badge/Repo-Financial--Assistant-0b0f14?style=for-the-badge&logo=git&logoColor=7CFFB2)](https://github.com/SuniyanJana/Financial-Assistant)
+</details>
+
+<details>
+<summary><b>🧰 &nbsp;What this project demonstrates</b></summary>
+<br>
+
+- Frontend interfaces with React + Vite
+- REST API design with Node.js + Express
+- JWT authentication and protected routes
+- MongoDB schema design
+- Financial calculations and data visualization
+
+</details>
+
+<details>
+<summary><b>🤝 &nbsp;Want to help or say hi?</b></summary>
+<br>
+
+| I want to... | Go here |
+|---|---|
+| ⭐ Support the project | [Star the repo](https://github.com/SuniyanJana/Financial-Assistant) |
+| 🍴 Build on it | [Fork it](https://github.com/SuniyanJana/Financial-Assistant/fork) |
+| 🐛 Report a bug or suggest a feature | [Open an issue](https://github.com/SuniyanJana/Financial-Assistant/issues/new) |
+| 👋 See my other work | [GitHub profile](https://github.com/SuniyanJana) |
+
+</details>
+
+<br>
+
+<div align="center">
 
 **If this saved you a spreadsheet, drop a ⭐**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=90&section=footer" width="100%" alt="footer">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:203a43,100:2c5364&height=70&section=footer&text=thank%20you%20for%20visiting&fontSize=18&fontColor=7CFFB2&fontAlignY=60" width="100%" alt="footer">
 
 </div>
