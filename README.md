@@ -273,7 +273,6 @@ Financial-Assistant/
 
 <a href="https://github.com/SuniyanJana"><img src="https://img.shields.io/github/followers/SuniyanJana?label=Follow&style=for-the-badge&logo=github&logoColor=7CFFB2&labelColor=0b0f14&color=203a43" alt="Follow"></a>
 <a href="https://github.com/SuniyanJana/Financial-Assistant/stargazers"><img src="https://img.shields.io/github/stars/SuniyanJana/Financial-Assistant?style=for-the-badge&logo=github&logoColor=7CFFB2&labelColor=0b0f14&color=203a43" alt="Stars"></a>
-<a href="https://github.com/SuniyanJana/Financial-Assistant/fork"><img src="https://img.shields.io/github/forks/SuniyanJana/Financial-Assistant?style=for-the-badge&logo=github&logoColor=7CFFB2&labelColor=0b0f14&color=203a43" alt="Forks"></a>
 
 </div>
 
