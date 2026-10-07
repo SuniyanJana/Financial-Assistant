@@ -258,10 +258,6 @@ Financial-Assistant/
 - [x] Expenses, funds, investments, goals
 - [x] JWT auth and protected routes
 - [x] Investment ↔ fund-tracker linkage
-- [ ] 🤖 AI-powered financial assistance
-- [ ] 💡 Personalized saving recommendations
-- [ ] 🔔 Financial alerts
-- [ ] 📊 Deeper investment insights
 
 <br>
 
